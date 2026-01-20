@@ -1,0 +1,88 @@
+name: Déploiement React + Vite → FTP
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: 🧾 Checkout du dépôt
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: ⚙️ Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: 📦 Installation des dépendances
+        run: npm ci
+
+      - name: 🔍 Vérifier que build-posts.js existe
+        run: ls -al scripts
+
+      - name: 🔧 Exécution de build-posts.js
+        run: node ./scripts/build-posts.js
+
+      - name: 🔧 Changer les droits de posts.json
+        run: chmod 666 src/posts.json
+
+      - name: 🔍 Vérification du fichier posts.json
+        run: |
+          echo "Contenu du dossier src/"
+          ls -al src
+          echo "Vérification de posts.json"
+          test -f src/posts.json || (echo "❌ posts.json non généré !" && exit 1)
+
+      - name: ⚙️ Build Vite
+        run: npm run build
+
+      - name: 🚀 Déploiement via FTP
+        uses: SamKirkland/FTP-Deploy-Action@v4.3.4
+        with:
+          server: ${{ secrets.FTP_HOST }}
+          username: ${{ secrets.FTP_USERNAME }}
+          password: ${{ secrets.FTP_PASSWORD }}
+          local-dir: ./dist/
+          server-dir: /fintech4esg.com/httpdocs/
+
+      - name: 📣 Notifier les nouveaux articles
+        if: github.event_name == 'push'
+        run: |
+          # Installer jq pour parser le JSON
+          sudo apt-get install -y jq
+
+          ADDED_FILES=$(git diff --name-only --diff-filter=A HEAD~1 HEAD)
+          for file in $ADDED_FILES; do
+            if [[ "$file" == src/components/Fintech4esgInsights/articles/*.md ]]; then
+              SLUG=$(basename "$file" .md)
+              echo "Nouvel article détecté : $SLUG"
+              
+              # Extraire les informations de l'article depuis posts.json
+              ARTICLE_JSON=$(jq --arg slug "$SLUG" '.[] | select(.slug == $slug)' src/posts.json)
+              
+              if [ -z "$ARTICLE_JSON" ]; then
+                echo "::warning::Article avec le slug '$SLUG' non trouvé dans posts.json. Notification ignorée."
+                continue
+              fi
+              TITLE=$(echo "$ARTICLE_JSON" | jq -r '.title')
+              IMAGE=$(echo "$ARTICLE_JSON" | jq -r '.image')
+              
+              # Construire le payload JSON
+              JSON_PAYLOAD=$(printf '{"slug":"%s","title":"%s","image":"%s"}' "$SLUG" "$TITLE" "$IMAGE")
+              
+              echo "Envoi de la notification avec le payload : $JSON_PAYLOAD"
+              
+              curl -X POST ${{ secrets.API_URL }}/send-newsletter \
+                -H "Content-Type: application/json" \
+                -H "x-api-key: ${{ secrets.API_KEY }}" \
+                -d "$JSON_PAYLOAD"
+            fi
+          done
+        
