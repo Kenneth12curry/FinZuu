@@ -12,16 +12,16 @@ export default function Footer() {
   const currentYear = new Date().getFullYear();
 
   return (
-    <footer className="bg-gray-900 text-white py-6 sm:py-10 px-3 sm:px-4 text-center">
+    <footer className="bg-gray-900 text-white pt-2 pb-6 sm:py-10 px-3 sm:px-4 text-center">
       <div className="container mx-auto">
-        <div className="grid grid-cols-1 md:grid-cols-5 gap-6 sm:gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-5 gap-1 sm:gap-8">
 
           {/* Logo */}
           <div className="flex flex-row items-center justify-center">
             <img
               src={finzuuLogoFooter}
               alt="FinZuu Logo"
-              className="w-30 sm:w-30 mb-6 transform -translate-y-10"
+              className="w-30 sm:w-30 -mb-24 sm:mb-6 transform -translate-y-10"
             />
           </div>
 
@@ -110,10 +110,10 @@ export default function Footer() {
                   <Link to="/contact">
                     <FontAwesomeIcon icon={faGlobe} className="mr-2 text-sm globe-icon" />
                   </Link>
-                 {/*  <Link to="/contact"><span className="text-gray-300">{t("contact.Asia")}</span></Link> */}
+                  {/*  <Link to="/contact"><span className="text-gray-300">{t("contact.Asia")}</span></Link> */}
                 </div>
               </li>
-             {/*  <li>
+              {/*  <li>
                 <div style={{ fontSize: 13 }}>
                   <FontAwesomeIcon icon={faGlobeAfrica} className="mr-2 text-sm" />
                   <Link to="/contact"> <span className="text-gray-300">{t("contact.west")}</span></Link>

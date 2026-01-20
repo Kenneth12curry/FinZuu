@@ -763,7 +763,7 @@ export default function Contact() {
                  {/* reCAPTCHA */}
                 <div className="flex">
                   <ReCAPTCHA
-                    sitekey="6LeTjG8rAAAAANvzHzPiXmCz8ytmEbwK1u3yA23z" // ← remplace par ta clé
+                    sitekey="6LcdIVEsAAAAAOptSob5pTuFwIUYTi7rN0l5f4Kc" // ← remplace par ta clé
                     onChange={setCaptchaToken}
                   />
                 </div>
