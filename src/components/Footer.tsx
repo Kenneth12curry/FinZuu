@@ -2,8 +2,8 @@ import { useTranslation } from 'react-i18next';
 import { Link } from "react-router-dom";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faInstagram, faLinkedinIn, faXTwitter } from '@fortawesome/free-brands-svg-icons';
-import { faMapMarkerAlt, faPhone, faEnvelope, faGlobeAsia, faGlobeAfrica } from '@fortawesome/free-solid-svg-icons';
-import fintecht4esgLogoFooter from "@/assets/FINTECH4ESG_Logos.svg";
+import { faMapMarkerAlt, faPhone, faEnvelope, faGlobe } from '@fortawesome/free-solid-svg-icons';
+import finzuuLogoFooter from "@/assets/FinZuu_Logo-V2/finzuu-logo-icon.svg";
 
 
 export default function Footer() {
@@ -19,9 +19,9 @@ export default function Footer() {
           {/* Logo */}
           <div className="flex flex-row items-center justify-center">
             <img
-              src={fintecht4esgLogoFooter}
-              alt="FinTech4ESG Logo"
-              className="w-20 sm:w-20 mb-6 transform -translate-y-2"
+              src={finzuuLogoFooter}
+              alt="FinZuu Logo"
+              className="w-30 sm:w-30 mb-6 transform -translate-y-10"
             />
           </div>
 
@@ -95,7 +95,7 @@ export default function Footer() {
                 <Link
                   to="/insights"
                   className="text-sm font-bold text-primary">
-                  FinTech4ESG Insights
+                  FinZuu Insights
                 </Link>
               </li>
             </ul>
@@ -107,11 +107,13 @@ export default function Footer() {
             <ul className="space-y-1 text-sm">
               <li>
                 <div style={{ fontSize: 13 }}>
-                  <FontAwesomeIcon icon={faGlobeAsia} className="mr-2 text-sm" />
-                  <Link to="/contact"><span className="text-gray-300">{t("contact.Asia")}</span></Link>
+                  <Link to="/contact">
+                    <FontAwesomeIcon icon={faGlobe} className="mr-2 text-sm globe-icon" />
+                  </Link>
+                 {/*  <Link to="/contact"><span className="text-gray-300">{t("contact.Asia")}</span></Link> */}
                 </div>
               </li>
-              <li>
+             {/*  <li>
                 <div style={{ fontSize: 13 }}>
                   <FontAwesomeIcon icon={faGlobeAfrica} className="mr-2 text-sm" />
                   <Link to="/contact"> <span className="text-gray-300">{t("contact.west")}</span></Link>
@@ -122,7 +124,7 @@ export default function Footer() {
                   <FontAwesomeIcon icon={faGlobeAfrica} className="mr-2 text-sm" />
                   <Link to="/contact"> <span className="text-gray-300">{t("contact.central")}</span></Link>
                 </div>
-              </li>
+              </li> */}
               {/* <li>
                   <div style={{ fontSize: 13 }}>
                     <FontAwesomeIcon icon={faEnvelope} className="mr-2 text-sm" />
@@ -139,7 +141,7 @@ export default function Footer() {
         {/* Bottom Info */}
         <div className="flex flex-col md:flex-row justify-between items-center">
           <div className="flex flex-col">
-            <p className="text-gray-400 text-xs sm:text-sm">&copy; {currentYear} FinTech4ESG</p>
+            <p className="text-gray-400 text-xs sm:text-sm">&copy; {currentYear} FinZuu</p>
             <p className="text-gray-400 text-xs mt-1">All rights reserved.</p>
           </div>
           <div className="mt-3 md:mt-0 flex gap-3 sm:gap-4">

@@ -305,7 +305,7 @@ export default function Contact() {
                     transition={{ duration: 0.4 }}
                     viewport={{ once: true }}>
                    
-                    <TeamSection title={t("contact.asia")} titleName="Mr. Karim SEFOUNI" email="ks@fintech4esg.com" tel="+62 878 6192 1160" offices={t("contact.ind")} countries="Countries :" />
+                    <TeamSection title={t("contact.asia")} titleName="Mr. Karim SEFOUNI" email="ks@finzuu.com" tel="+62 878 6192 1160" offices={t("contact.ind")} countries="Countries :" />
                   </motion.div>
                   </AnimatedComponent>
 
@@ -316,7 +316,7 @@ export default function Contact() {
                     transition={{ duration: 0.4 }}
                     viewport={{ once: true }}>
                    
-                    <TeamSection title={t("contact.asia1")} titleName="Mr. Loïc GAUTIER" email="lg@fintech4esg.com" tel="+84 90 924 47 88" offices={t("contact.viet")} />
+                    <TeamSection title={t("contact.asia1")} titleName="Mr. Loïc GAUTIER" email="lg@finzuu.com" tel="+84 90 924 47 88" offices={t("contact.viet")} />
                   </motion.div>
                   </AnimatedComponent>
 
@@ -327,7 +327,7 @@ export default function Contact() {
                       transition={{ duration: 0.4 }}
                       viewport={{ once: true }}
                       className="">
-                      <TeamSection title={t("contact.west")} titleName="Mr. Yves KINGNE" email="yk@fintech4esg.com" tel="+224 612 80 47 04" offices={t("contact.westC")} countries="Countries :" />
+                      <TeamSection title={t("contact.west")} titleName="Mr. Yves KINGNE" email="yk@finzuu.com" tel="+224 612 80 47 04" offices={t("contact.westC")} countries="Countries :" />
                     </motion.div>
                   </AnimatedComponent>
 
@@ -338,7 +338,7 @@ export default function Contact() {
                       transition={{ duration: 0.4 }}
                       viewport={{ once: true }}
                       className="mt-10">
-                        <TeamSection title={t("contact.central")} titleName="Mr. Christian DIWOUTA" email="cd@fintech4esg.com" tel="+237 699 91 01 24" offices={t("contact.centralC")} countries="Countries :" />
+                        <TeamSection title={t("contact.central")} titleName="Mr. Christian DIWOUTA" email="cd@finzuu.com" tel="+237 699 91 01 24" offices={t("contact.centralC")} countries="Countries :" />
                     </motion.div>
                   </AnimatedComponent>
               </div>

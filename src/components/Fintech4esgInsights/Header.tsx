@@ -1,15 +1,15 @@
 import React from "react";
-import logo from "@/assets/FINTECH4ESG Logo form_icon.svg";
+import logo from "@/assets/FinZuu_Logo-V2/finzuu-logo-icon.svg";
 import { useTranslation } from "react-i18next";
 
 export default function Header() {
     const { t } = useTranslation();
     return (
         <header className="flex flex-col items-center mb-2">
-            <img src={logo} alt="logo fintech" className="w-24 h-24 md:w-28 md:h-28" />
+            <img src={logo} alt="logo finzuu" className="w-28 h-28 md:w-40 md:h-40" />
             
             <h1 className="text-3xl md:text-5xl font-bold text-primary mb-2 text-center transform -translate-y-3 md:-translate-y-5">
-                <br /> {t("header.insights.title")}
+               {t("header.insights.title")}
             </h1>
             
             <div className="text-center px-4">

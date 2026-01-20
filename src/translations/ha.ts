@@ -1,7 +1,7 @@
 // Hausa translations
 const translations: Record<string, string> = {
   // Competitive Analysis
-  "competitive.heading": "MASU GASA VS FINTECH4ESG",
+  "competitive.heading": "MASU GASA VS FinZuu",
   "competitive.insights": "Bayanai Na Muhimmanci Kan Riba",
   "competitive.comparison": "Kwatancin Manyan Masu Gasa",
   "competitive.market_size": "Girman Kasuwar FinTech na Afirka (TAM)",
@@ -108,7 +108,7 @@ const translations: Record<string, string> = {
   "score.risk.veryhigh": "Kwarai da Gaske Sama",
 
   // About Us
-  "about.title": "Game da FinTech4ESG Consulting",
+  "about.title": "Game da FinZuu Consulting",
   "about.subtitle": "Muna samar da ayyukan kuɗi na zamani ga kasuwannin Afirka da ke cigaba",
   "about.mission.title": "Manufarmu",
   "about.mission.description": "Ƙirƙirar bayanai na kuɗin zamani da ke buɗe damar yin aiki da banki, haɓaka kasuwanci, da inganta rayuwa a Afirka, tare da haɗa ma'agungunan ESG (Muhalli, Jama'a, Mulki) a kowane matakin.",
@@ -179,7 +179,7 @@ const translations: Record<string, string> = {
   "footer.legal.terms": "Ƙa'idoji da Sharudda",
   "footer.legal.privacy": "Tsarin Sirri",
   "footer.legal.security": "Tsaro",
-  "footer.copyright": "Hakkin Mallaka © 2025 FinTech4ESG Consulting. Dukkan Haƙƙoƙi Sun Kiyaye.",
+  "footer.copyright": "Hakkin Mallaka © 2025 FinZuu Consulting. Dukkan Haƙƙoƙi Sun Kiyaye.",
 
   // Business Opportunity
   "business.title": "Dama na Kasuwanci",

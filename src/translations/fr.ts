@@ -207,7 +207,7 @@ const translations = {
   "case_studies.map.description": "Impact de ReadyCash à travers les régions africaines",
   "case_studies.map.placeholder": "Carte interactive des histoires de succès montrant l'impact de ReadyCash.",
   // Competitive Analysis
-  "competitive.heading": "CONCURRENTS VS FINTECH4ESG",
+  "competitive.heading": "CONCURRENTS VS FinZuu",
   "competitive.insights": "Points Clés de Rentabilité",
   "competitive.comparison": "Comparaison des Principaux Concurrents",
   "competitive.market_size": "Taille du Marché Fintech Africain (TAM)",
@@ -311,7 +311,7 @@ const translations = {
   "about.role.cfo":"CFO",
   //"about.role.coo": "C00",
   "about.role.cto": "CTO",
-  "about.role.head":"Head Of Strategy",
+  "about.role.cso":"CSO",
   "about.role.research": "U. G.",
   "about.role.business": "Head Of Business",
   "about.role.advisor": "Conseiller",
@@ -552,7 +552,7 @@ const translations = {
   "footer.resources": "Ressources",
   "footer.legal": "Mentions Légales",
   "footer.rights": "Tous droits réservés",
-  "footer.copyright": "© 2025 FinZuu Consulting. Tous droits réservés.",
+  "footer.copyright": "© 2026 FinZuu. Tous droits réservés.",
 
 
   // Home Component
@@ -618,7 +618,7 @@ const translations = {
   "title.firstName":"Prénom *",
   "title.job":"Titre d'Emploi *",
   "title.company":"Nom de l'entreprise *",
-  "title.applies":"Quels secteurs verticaux s'appliquent le mieux à vous ? *",
+  "title.applies":"Quels secteurs s'appliquent à vous ? *",
   "title.email":"E-mail *",
   "title.phone":"Téléphone *",
   "title.country":"Dans quel pays êtes-vous basé ? *",
@@ -840,7 +840,7 @@ const translations = {
   "frame.harvestAdvance":"Harvest Advance",
 
 
-  /** fintech4esg Insights */
+  /** FinZuu Insights */
  /*  "header.insights.title": "Perspectives FinZuu",
   "header.insights": "Restez informé avec des analyses sélectionnées sur l'inclusion financière, les tendances et l'innovation",
   "header.insights1": "qui façonnent les systèmes de scoring et de gestion des risques pour les populations non bancarisées.",

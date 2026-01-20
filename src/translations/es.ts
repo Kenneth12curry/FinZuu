@@ -1,6 +1,6 @@
 const translations = {
   // Competitive Analysis
-  "competitive.heading": "COMPETIDORES VS FINTECH4ESG",
+  "competitive.heading": "COMPETIDORES VS FinZuu",
   "competitive.insights": "Información Clave de Rentabilidad",
   "competitive.comparison": "Comparación de Competidores Principales",
   "competitive.market_size": "Tamaño del Mercado Fintech Africano (TAM)",
@@ -11,7 +11,7 @@ const translations = {
   "competitive.conclusion_title": "Perspectivas de Rentabilidad y Crecimiento",
   // Contact Section
   "contact.heading": "Contáctenos",
-  "contact.title": "Asociarse con FinTech4ESG Consulting",
+  "contact.title": "Asociarse con FinZuu Consulting",
   "contact.description": "Únase a nosotros en nuestra misión de revolucionar los servicios financieros y crear un futuro sostenible. Trabajemos juntos para construir un mundo más equitativo y ambientalmente consciente.",
   "contact.form.name.label": "Nombre completo",
   "contact.form.name.placeholder": "Su nombre",
@@ -173,8 +173,8 @@ const translations = {
   "platform.segment.verylow": "Muy baja propensión del cliente a recuperar el préstamo",
   
   // Platform Partnership
-  "platform.partnership.title": "Asociarse con FinTech4ESG Consulting para Resultados Transformadores",
-  "platform.partnership.description": "Únase a FinTech4ESG Consulting para desbloquear un crecimiento y alcance de mercado sin precedentes. Nuestra plataforma ReadyCash proporciona a las instituciones de microfinanzas herramientas de vanguardia diseñadas para expandir su base de clientes, minimizar riesgos e impulsar la inclusión financiera sostenible en África.",
+  "platform.partnership.title": "Asociarse con FinZuu Consulting para Resultados Transformadores",
+  "platform.partnership.description": "Únase a FinZuu Consulting para desbloquear un crecimiento y alcance de mercado sin precedentes. Nuestra plataforma ReadyCash proporciona a las instituciones de microfinanzas herramientas de vanguardia diseñadas para expandir su base de clientes, minimizar riesgos e impulsar la inclusión financiera sostenible en África.",
   "platform.partnership.benefit1": "Implementación de marca blanca con su imagen - lanzamiento en semanas, no en meses",
   "platform.partnership.benefit2": "La puntuación crediticia impulsada por IA reduce las tasas de incumplimiento hasta en un 22% en comparación con los métodos tradicionales",
   "platform.partnership.benefit3": "Alcance mercados anteriormente inexplorados con nuestra integración perfecta con dinero móvil",
@@ -323,7 +323,7 @@ const translations = {
   "footer.resources": "Recursos",
   "footer.legal": "Legal",
   "footer.rights": "Todos los derechos reservados",
-  "footer.copyright": "© 2025 FinTech4ESG Consulting. Todos los derechos reservados.",
+  "footer.copyright": "© 2025 FinZuu Consulting. Todos los derechos reservados.",
 };
 
 export default translations;

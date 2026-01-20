@@ -18,3 +18,16 @@
 .keen-slider__slide img {
   filter: drop-shadow(0 4px 8px rgba(0, 0, 0, 0.2));
 }
+
+
+.finzuu {
+  height: 5.5rem;
+  /* env 72px, fits inside h-20 (80px) with some padding */
+  width: auto;
+  object-fit: contain;
+}
+
+.globe-icon {
+  width: 50px;
+  height: 50px;
+}

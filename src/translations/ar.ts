@@ -1,7 +1,7 @@
 // Arabic translations
 const translations: Record<string, string> = {
   // Competitive Analysis
-  "competitive.heading": "المنافسون مقابل FINTECH4ESG",
+  "competitive.heading": "المنافسون مقابل FinZuu",
   "competitive.insights": "رؤى الربحية الرئيسية",
   "competitive.comparison": "مقارنة المنافسين الرئيسيين",
   "competitive.market_size": "حجم سوق التكنولوجيا المالية الأفريقية (TAM)",
@@ -108,7 +108,7 @@ const translations: Record<string, string> = {
   "score.risk.veryhigh": "مرتفع جدًا",
 
   // About Us
-  "about.title": "عن FinTech4ESG Consulting",
+  "about.title": "عن FinZuu Consulting",
   "about.subtitle": "نقدم خدمات مالية حديثة للأسواق الأفريقية الناشئة",
   "about.mission.title": "مهمتنا",
   "about.mission.description": "تطوير حلول تكنولوجيا مالية تفتح الوصول المصرفي ونمو الأعمال وتحسين المعيشة في أفريقيا، مع دمج معايير ESG (البيئية والاجتماعية والحوكمة) في كل خطوة.",
@@ -179,7 +179,7 @@ const translations: Record<string, string> = {
   "footer.legal.terms": "الشروط والأحكام",
   "footer.legal.privacy": "سياسة الخصوصية",
   "footer.legal.security": "الأمان",
-  "footer.copyright": "حقوق النشر © 2025 FinTech4ESG Consulting. جميع الحقوق محفوظة.",
+  "footer.copyright": "حقوق النشر © 2025 FinZuu Consulting. جميع الحقوق محفوظة.",
 
   // Business Opportunity
   "business.title": "فرص الأعمال",

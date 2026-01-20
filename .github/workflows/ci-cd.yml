@@ -50,7 +50,7 @@ jobs:
           username: ${{ secrets.FTP_USERNAME }}
           password: ${{ secrets.FTP_PASSWORD }}
           local-dir: ./dist/
-          server-dir: /fintech4esg.com/httpdocs/
+          server-dir: /finzuu.com/httpdocs/
 
       - name: 📣 Notifier les nouveaux articles
         if: github.event_name == 'push'

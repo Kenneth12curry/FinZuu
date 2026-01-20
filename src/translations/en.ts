@@ -256,7 +256,7 @@ const translations = {
   // Footer Additional Items
   "footer.company": "Company",
   "footer.resources": "Resources",
-  "footer.copyright": "© 2025 FinZuu Consulting. All rights reserved.",
+  "footer.copyright": "© 2026 FinZuu. All rights reserved.",
   // Loan Application
   "readyForFinancialFreedom": "Ready for Financial Freedom?",
   "loanApplicationPrompt": "Start your journey to financial freedom with our easy loan application process",
@@ -478,7 +478,7 @@ const translations = {
   
   // Contact Section
   "contact.heading": "Get In Touch",
-  "contact.title": "Partner with FinZuu Consulting",
+  "contact.title": "Partner with FinZuu",
   "contact.description": "Join us on our mission to revolutionize financial services and create a sustainable future. Let's work together to build a more equitable and environmentally conscious world.",
   "contact.form.name.label": "Full Name",
   "contact.form.name.placeholder": "Your name",
@@ -580,7 +580,7 @@ const translations = {
   "about.role.ceo": "COO",
   "about.role.cfo":"CFO",
   //"about.role.coo": "C00",
-  "about.role.head":"Head Of Strategy",
+  "about.role.cso":"CSO",
   "about.role.cto": "CTO",
   "about.role.research": "U. G.",
   "about.role.business": "Head Of Business",
@@ -1011,7 +1011,7 @@ const translations = {
   "frame.agrivalue":"AgriValue",
   "frame.harvestAdvance":"Harvest Advance",
 
-  /** fintech4esg Insights */
+  /** FinZuu Insights */
   "header.insights.title": "FinZuu Insights",
   "header.insights":"Stay ahead with curated insights on Financial Inclusion, trends and innovation",
   "header.insights1":"that shape scoring & risk system for unbanked population.",

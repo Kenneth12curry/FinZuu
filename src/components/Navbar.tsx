@@ -2,7 +2,7 @@ import { useState, useRef, useEffect } from "react";
 import { Link, useLocation, useNavigate } from "react-router-dom";
 import { useTranslation } from "react-i18next";
 import i18n from "@/lib/i18n";
-import fintech4esgLogoHeader from "@/assets/Header_FTE_MOTO.png";
+import finzuuLogoHeader from "@/assets/FinZuu_Logo-V2/FinzuuHeader-remove.png";
 
 type NavigationLink = {
   name: string;
@@ -54,13 +54,13 @@ export default function Navbar() {
   ];
 
   return (
-    <header className="bg-white shadow-sm sticky top-0 z-50">
+    <header className="bg-white shadow-sm sticky top-0 z-50 pt-5">
       <nav className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between h-20">
           {/* Logo */}
           <div className="flex items-center">
-            <Link to="/" className="block absolute top-4 left-4 sm:static sm:transform-none">
-              <img src={fintech4esgLogoHeader} alt="FinTech4ESG" className="w-28 sm:w-40 h-auto" />
+            <Link to="/" className="block">
+              <img src={finzuuLogoHeader} alt="FinZuu" className="finzuu" />
             </Link>
           </div>
 
@@ -82,8 +82,8 @@ export default function Navbar() {
           <div className="hidden lg:flex flex-1 justify-end items-center">
             {isInsightsPage ? (
               <div className="flex justify-end p-4 gap-2">
-                <button className="bg-purple-300 px-4 py-1 rounded text-white font-bold">Dashboards</button>
-                <button className="bg-[#19af58]  px-4 py-1 rounded text-white font-bold">Faker ID</button>
+                <button className="bg-purple-300 px-4 py-1 rounded text-white font-bold">WorkSpace</button>
+                {/*  <button className="bg-[#19af58]  px-4 py-1 rounded text-white font-bold">Faker ID</button> */}
                 {/*  <div className="ml-4 text-xs border border-dashed border-green-400 px-2 py-1 rounded">
                   Donne access à tous les platforms<br />de notre galaxies
                 </div> */}
@@ -180,8 +180,8 @@ export default function Navbar() {
 
               {isInsightsPage ? (
                 <div className="mt-6 flex flex-col items-end gap-2">
-                  <button className="bg-purple-300 px-4 py-1 rounded text-white font-bold w-fit">Dashboards</button>
-                  <button className="bg-[#19af58] px-4 py-1 rounded text-white font-bold w-32">Faker ID</button>
+                  <button className="bg-purple-300 px-4 py-1 rounded text-white font-bold w-fit">WorkSpace</button>
+                {/*   <button className="bg-[#19af58] px-4 py-1 rounded text-white font-bold w-32">Faker ID</button> */}
                   {/* <div className="text-xs border border-dashed border-green-400 px-2 py-1 rounded text-right">
                         Donne access à tous les platforms<br />de notre galaxies
                     </div> */}

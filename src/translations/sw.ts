@@ -144,7 +144,7 @@ const translations: Record<string, string> = {
   "applyForAnotherLoan": "Omba Mkopo Mwingine",
   
   // Competitive Analysis
-  "competitive.heading": "WASHINDANI VS FINTECH4ESG",
+  "competitive.heading": "WASHINDANI VS FinZuu",
   "competitive.insights": "Taarifa Muhimu za Faida",
   "competitive.comparison": "Ulinganisho wa Washindani Wakuu",
   "competitive.market_size": "Ukubwa wa Soko la Fintech Afrika (TAM)",
@@ -251,7 +251,7 @@ const translations: Record<string, string> = {
   "score.risk.veryhigh": "Juu Sana",
 
   // About Us
-  "about.title": "Kuhusu FinTech4ESG Consulting",
+  "about.title": "Kuhusu FinZuu Consulting",
   "about.subtitle": "Tunatoa huduma za kifedha za kisasa kwa masoko yanayoibuka ya Kiafrika",
   "about.mission.title": "Dhamira Yetu",
   "about.mission.description": "Kuunda suluhisho za teknolojia ya kifedha zinazofungua ufikiaji wa akaunti za benki, ukuaji wa biashara, na maisha bora katika Afrika, tukitekeleza vigezo vya ESG (Environmental, Social, Governance) katika kila hatua.",
@@ -322,7 +322,7 @@ const translations: Record<string, string> = {
   "footer.legal.terms": "Masharti na Kanuni",
   "footer.legal.privacy": "Sera ya Faragha",
   "footer.legal.security": "Usalama",
-  "footer.copyright": "Haki Miliki © 2025 FinTech4ESG Consulting. Haki Zote Zimehifadhiwa.",
+  "footer.copyright": "Haki Miliki © 2025 FinZuu Consulting. Haki Zote Zimehifadhiwa.",
 
   // Business Opportunity
   "business.title": "Fursa za Biashara",
