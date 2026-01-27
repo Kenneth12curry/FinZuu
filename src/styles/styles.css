@@ -30,4 +30,27 @@
 .globe-icon {
   width: 50px;
   height: 50px;
+  animation: spin 5s linear infinite;
+}
+
+@keyframes spin {
+  from {
+    transform: rotateY(0deg);
+  }
+
+  to {
+    transform: rotateY(360deg);
+  }
+}
+
+.finzuulogoFooter {
+  width: 140px;
+  height: 140px;
+}
+
+@media (min-width: 640px) {
+  .finzuulogoFooter {
+    width: 200px;
+    height: 200px;
+  }
 }

@@ -15,6 +15,7 @@ import isabelle from "@/assets/images/advisory/ID_Isabelle Barres.jpg"
 import gabriel from "@/assets/images/advisory/Gabriel_sallah.png"
 import uffe_carlson from "@/assets/images/advisory/ID_Uffe Carlson_2.jpeg"
 import daniel from "@/assets/images/advisory/Daniel_Awanda.png"
+import anthony from "@/assets/images/advisory/KUME1.jpeg"
 
 
 import OurBackgroundCaroussel from "./OurBackgroundCaroussel";
@@ -213,7 +214,7 @@ function TeamSection({ title, members }: TeamSectionProps) {
             transition={{ duration: 0.3 }}
             className="bg-white rounded-b-xl shadow-md p-6 mt-1"
           >
-            <div className="grid grid-cols-2 gap-8 place-items-center lg:grid-cols-5">
+            <div className="flex flex-wrap justify-center gap-16">
               {members.map((member, index) => (
                 <TeamMember
                   key={index}
@@ -264,7 +265,7 @@ function TeamSection2({ title, members }: TeamSectionProps) {
             transition={{ duration: 0.3 }}
             className="bg-white rounded-b-xl shadow-md p-6 mt-1">
 
-            <div className="flex flex-wrap md:flex-nowrap justify-center gap-8">
+            <div className="flex flex-wrap md:flex-nowrap justify-center gap-16">
               {members.map((member, index) => (
                 <TeamMember
                   key={index}
@@ -322,10 +323,10 @@ export default function AboutUs() {
 
   const managementTeam = [
     { name: "Franck PELTIER", role: t("about.role.fp"), linkedin: "https://www.linkedin.com/in/franck-peltier-772ba528/", image: franck },
-    { name: "Daniel Awanda", role: t("about.role.cso"), linkedin: "https://www.linkedin.com/in/danielawanda/", image: daniel },
+    { name: "Daniel AWANDA", role: t("about.role.cso"), linkedin: "https://www.linkedin.com/in/danielawanda/", image: daniel },
     { name: "Christian de BERAIL", role: t("about.role.cfo"), linkedin: "https://www.linkedin.com/in/cdeberail/", image: christian },
     { name: "JJ BWANGA", role: t("about.role.ceo"), linkedin: "https://www.linkedin.com/in/jjbwanga/", image: jjbwanga },
-    { name: "Kamel Zemouri", role: t("about.role.cto"), linkedin: "https://www.linkedin.com/in/kamel-zemouri-cv/", image: "" },
+    //{ name: "Kamel ZEMOURI", role: t("about.role.cto"), linkedin: "https://www.linkedin.com/in/kamel-zemouri-cv/", image: "" },
     //{ name: "Patrick MADENG", role: t("about.role.cto"), linkedin: "https://linkedin.com/in/patrick-madeng", image: "" },
     //{ name: "Uffe CARLSON", role: t("about.role.business"), linkedin: "https://linkedin.com/in/uffe-carlson", image: uffe_carlson }
   ];
@@ -333,9 +334,9 @@ export default function AboutUs() {
 
   const advisoryBoard = [
     { name: "Isabelle BARRES", role: t("about.role.ib"), linkedin: "https://www.linkedin.com/in/isabelle-barres/", image: isabelle },
-    { name: "Anthony KUME", role: t("about.role.ak"), linkedin: "https://www.linkedin.com/in/ak/", image: "" },
+    { name: "Anthony KUME", role: t("about.role.ak"), linkedin: "https://www.linkedin.com/in/ak/", image: anthony },
     { name: "Serge ESSO", role: t("about.role.se"), linkedin: "https://www.linkedin.com/in/serge-esso-69856ab/", image: serge },
-    { name: "Hichem BOUCHOUAREB", role: t("about.role.hb"),  linkedin: "https://www.linkedin.com/in/bouchouareb/", image: hicham },
+    { name: "Hichem B.", role: t("about.role.hb"), linkedin: "https://www.linkedin.com/in/bouchouareb/", image: hicham },
     { name: "Gabriel SALLAH", role: t("about.role.gs"), linkedin: "https://www.linkedin.com/in/gabrielsallah/", image: gabriel },
   ];
 

@@ -82,7 +82,7 @@ export default function Navbar() {
           <div className="hidden lg:flex flex-1 justify-end items-center">
             {isInsightsPage ? (
               <div className="flex justify-end p-4 gap-2">
-                <button className="bg-purple-300 px-4 py-1 rounded text-white font-bold">WorkSpace</button>
+              {/*   <button className="bg-purple-300 px-4 py-1 rounded text-white font-bold">WorkSpace</button> */}
                 {/*  <button className="bg-[#19af58]  px-4 py-1 rounded text-white font-bold">Faker ID</button> */}
                 {/*  <div className="ml-4 text-xs border border-dashed border-green-400 px-2 py-1 rounded">
                   Donne access à tous les platforms<br />de notre galaxies

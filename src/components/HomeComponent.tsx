@@ -5,7 +5,7 @@ import proven from "@/assets/images/home/proven.png";
 import data_home from "@/assets/images/home/data_draven.png";
 import sustainability_home from "@/assets/images/home/sustain.png";
 import partner_home from "@/assets/images/home/partner.png";
-import finance_home from "@/assets/images/home/finance_inclusion.png"; 
+import finance_home from "@/assets/images/home/finance_inclusion.png";
 import ewallet_home from "@/assets/images/home/ewallet.png";
 import p2p_home from "@/assets/images/home/P2P_Mgmt.png";
 import african from "@/assets/images/home/african_population.png";
@@ -17,7 +17,7 @@ import off from "@/assets/images/home/off.png";
 import phone from "@/assets/images/home/1.svg";
 import EcosystemCarousel from "./EcosystemCaroussel";
 
-                      
+
 
 export default function HomeComponent() {
   const { t } = useTranslation();
@@ -44,7 +44,7 @@ export default function HomeComponent() {
             <FeatureCard
               icon={sustainability_home}
               title={t("title.sustain")}
-              text={t("description.sustain")} 
+              text={t("description.sustain")}
             />
             <FeatureCard
               icon={partner_home}
@@ -93,9 +93,9 @@ export default function HomeComponent() {
       {/* Stats--> TakeAways */}
       <section className="py-16 bg-white">
         <div className="max-w-7xl mx-auto px-4">
-         <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-center mb-20">
+          <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-center mb-20">
             {t("title.takeAways")}
-        </h2>
+          </h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <StatCard
               icon={african}
@@ -116,12 +116,12 @@ export default function HomeComponent() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-8">
             <StatCard2
               icon={active}
-               value="+2.1B"
+              value="+2.1B"
               label={t("title.active")}
             />
             <StatCard
               icon={unbanked}
-               value="50%"
+              value="50%"
               label={t("title.unbanked")}
             />
             <StatCard
@@ -146,14 +146,14 @@ export default function HomeComponent() {
           }}
         >
           {/* Texte à gauche */}
-          <div className="flex-1 flex flex-col items-center lg:items-start justify-center text-center lg:text-left">
+          <div className="flex-1 flex flex-col items-center lg:items-start justify-center text-center lg:text-left ml-9">
             <h3 className="text-xs sm:text-2xl text-[#1f1f1f] mb-1 sm:mb-6 leading-snug sm:leading-tight">
               {t("title.need")}<br />
               {t("title.need1")}
             </h3>
             <a
-              href="https://calendly.com/fintech4esg"
-              className="inline-block text-sm sm:text-base text-white rounded-xl border bg-[#19af58] px-6 sm:px-8 py-2 sm:py-2.5 mt-2 sm:mt-4 transition hover:bg-primary hover:text-white"
+              href="https://cloud15105.nextcloud.massivegrid.net/index.php/apps/calendar/appointment/jt94Xw5X2oSx"
+              className="inline-block text-xs sm:text-base text-white rounded-xl border bg-[#19af58] px-4 sm:px-8 py-1.5 sm:py-2.5 mt-2 sm:mt-4 transition hover:bg-primary hover:text-white"
               target="_blank"
               rel="noopener noreferrer"
               style={{ letterSpacing: "0.3px" }}
@@ -172,16 +172,16 @@ export default function HomeComponent() {
             />
           </div>
 
-        
+
           {/* Image mobile centrée sous le bouton */}
-            <div className="lg:hidden w-full flex justify-center mt-4">
-              <img
-                src={phone}
-                alt="Phone"
-                className="w-28 sm:w-40"
-                loading="eager"
-              />
-            </div>
+          <div className="lg:hidden w-full flex justify-center mt-4">
+            <img
+              src={phone}
+              alt="Phone"
+              className="w-28 sm:w-40"
+              loading="eager"
+            />
+          </div>
         </div>
       </section>
 
@@ -192,21 +192,21 @@ export default function HomeComponent() {
 // Feature card component avec animation améliorée
 function FeatureCard({ icon, title, text }: { icon: string; title: string; text: string }) {
   return (
-   <div className="bg-white rounded-xl shadow-lg p-4 border-t-4 border-purple-500 transition-transform duration-300 hover:scale-105 hover:shadow-2xl hover:border-purple-700
+    <div className="bg-white rounded-xl shadow-lg p-4 border-t-4 border-purple-500 transition-transform duration-300 hover:scale-105 hover:shadow-2xl hover:border-purple-700
             max-w-xs mx-auto
             sm:p-6 sm:max-w-none">
-  <img src={icon} alt={title} className="w-10 h-10 mb-2 object-contain sm:w-14 sm:h-14 sm:mb-4" loading="lazy" />
-  <h3 className="font-semibold text-base mb-1 sm:text-lg sm:mb-2">{title}</h3>
-  <p className="text-sm text-gray-600 mb-3 sm:text-base sm:mb-5">{text}</p>
-</div>
+      <img src={icon} alt={title} className="w-10 h-10 mb-2 object-contain sm:w-14 sm:h-14 sm:mb-4" loading="lazy" />
+      <h3 className="font-semibold text-base mb-1 sm:text-lg sm:mb-2">{title}</h3>
+      <p className="text-sm text-gray-600 mb-3 sm:text-base sm:mb-5">{text}</p>
+    </div>
   );
 }
 
 // Product card component avec animation améliorée
-function ProductCard({ icon, title, text, to }: { icon: string; title: string; text: string, to:string }) {
+function ProductCard({ icon, title, text, to }: { icon: string; title: string; text: string, to: string }) {
   const { t } = useTranslation();
   return (
-   <div className="bg-white rounded-xl shadow-lg p-4 sm:p-6 border-b-4 border-green-500 transition-transform duration-300 hover:scale-105 hover:shadow-2xl hover:border-green-700 w-full max-w-xs sm:max-w-sm mx-auto">
+    <div className="bg-white rounded-xl shadow-lg p-4 sm:p-6 border-b-4 border-green-500 transition-transform duration-300 hover:scale-105 hover:shadow-2xl hover:border-green-700 w-full max-w-xs sm:max-w-sm mx-auto">
       <img
         src={icon}
         alt={title}
@@ -223,7 +223,7 @@ function ProductCard({ icon, title, text, to }: { icon: string; title: string; t
           {t("title.learnMore")}<span className="ml-1">→</span>
         </Link>
       </div>
-  </div>
+    </div>
 
   );
 }
@@ -272,19 +272,19 @@ function StatCard({ icon, value, label, duration = 1500 }: { icon: string; value
     <div className="flex items-center bg-white rounded-2xl shadow-lg px-3 py-4 border-b-4 border-[#a259e6] transition-transform duration-200 hover:scale-[1.03] hover:shadow-xl
             sm:px-6 sm:py-8"
       style={{ minHeight: 140 }}> {/* minHeight encore plus réduit pour mobile */}
-        <img
-          src={icon}
-          alt={label}
-          className="w-10 h-10 mr-3 object-contain sm:w-16 sm:h-16 sm:mr-6" 
-          loading="lazy"
-          style={{
-            filter: "invert(62%) sepia(80%) saturate(1200%) hue-rotate(245deg) brightness(80%)",
-          }}
-        />
-        <div>
-          <div className="text-xl font-bold mb-0.5 sm:text-3xl sm:mb-1" style={{ color: "#1db954" }}>{formatValue()}</div> {/* Texte de valeur encore plus petit pour mobile */}
-          <div className="text-xs text-gray-700 font-medium sm:text-base">{label}</div> {/* Texte de label déjà petit, conservé */}
-        </div>
+      <img
+        src={icon}
+        alt={label}
+        className="w-10 h-10 mr-3 object-contain sm:w-16 sm:h-16 sm:mr-6"
+        loading="lazy"
+        style={{
+          filter: "invert(62%) sepia(80%) saturate(1200%) hue-rotate(245deg) brightness(80%)",
+        }}
+      />
+      <div>
+        <div className="text-xl font-bold mb-0.5 sm:text-3xl sm:mb-1" style={{ color: "#1db954" }}>{formatValue()}</div> {/* Texte de valeur encore plus petit pour mobile */}
+        <div className="text-xs text-gray-700 font-medium sm:text-base">{label}</div> {/* Texte de label déjà petit, conservé */}
+      </div>
     </div>
   );
 }
@@ -335,7 +335,7 @@ function StatCard2({ icon, value, label, duration = 1500 }: { icon: string; valu
       <img
         src={icon}
         alt={label}
-        className="w-10 h-10 mr-3 object-contain sm:w-16 sm:h-16 sm:mr-6" 
+        className="w-10 h-10 mr-3 object-contain sm:w-16 sm:h-16 sm:mr-6"
         loading="lazy"
         style={{
           filter: "invert(62%) sepia(80%) saturate(1200%) hue-rotate(245deg) brightness(80%)",

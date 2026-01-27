@@ -127,9 +127,9 @@ export default function Hero() {
                           whileTap={{ scale: 0.95 }}
                           transition={{ type: "spring", stiffness: 400, damping: 15 }}
                         >
-                          <a
-                            href="https://calendly.com/fintech4esg"
-                            className="inline-block text-sm sm:text-base text-white rounded-xl border bg-[#19af58] px-6 sm:px-8 py-2 sm:py-2.5 mt-2 sm:mt-4 transition hover:bg-primary hover:text-white"
+                           <a
+                            href="https://cloud15105.nextcloud.massivegrid.net/index.php/apps/calendar/appointment/jt94Xw5X2oSx"
+                            className="inline-block text-xs sm:text-base text-white rounded-xl border bg-[#19af58] px-4 sm:px-8 py-1.5 sm:py-2.5 mt-2 sm:mt-4 transition hover:bg-primary hover:text-white"
                             target="_blank"
                             rel="noopener noreferrer"
                             style={{ letterSpacing: "0.3px" }}

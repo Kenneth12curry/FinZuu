@@ -13,7 +13,7 @@ export default function InsightsPage() {
             <div className="flex justify-between items-center">
                 <div className="font-semibold text-sm md:text-base">
                   <span className="text-sm text-primary ms-4">Written by</span><br />
-                  <span className="text-sm text-[#19af58] ms-4">FinTech4ESG</span>
+                  <span className="text-sm text-[#19af58] ms-4">FinZuu</span>
                 </div>
                 <SocialLinks />
             </div>

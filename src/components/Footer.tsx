@@ -14,14 +14,14 @@ export default function Footer() {
   return (
     <footer className="bg-gray-900 text-white pt-2 pb-6 sm:py-10 px-3 sm:px-4 text-center">
       <div className="container mx-auto">
-        <div className="grid grid-cols-1 md:grid-cols-5 gap-1 sm:gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-5 gap-4 sm:gap-8">
 
           {/* Logo */}
           <div className="flex flex-row items-center justify-center">
             <img
               src={finzuuLogoFooter}
               alt="FinZuu Logo"
-              className="w-30 sm:w-30 -mb-24 sm:mb-6 transform -translate-y-10"
+              className="mt-6 -mb-20 sm:mt-0 sm:mb-6 transform -translate-y-12 sm:-translate-y-4 finzuulogoFooter"
             />
           </div>
 
@@ -108,7 +108,7 @@ export default function Footer() {
               <li>
                 <div style={{ fontSize: 13 }}>
                   <Link to="/contact">
-                    <FontAwesomeIcon icon={faGlobe} className="mr-2 text-sm globe-icon" />
+                    <FontAwesomeIcon icon={faGlobe} className="mr-2 globe-icon" />
                   </Link>
                   {/*  <Link to="/contact"><span className="text-gray-300">{t("contact.Asia")}</span></Link> */}
                 </div>
@@ -141,8 +141,8 @@ export default function Footer() {
         {/* Bottom Info */}
         <div className="flex flex-col md:flex-row justify-between items-center">
           <div className="flex flex-col">
-            <p className="text-gray-400 text-xs sm:text-sm">&copy; {currentYear} FinZuu</p>
-            <p className="text-gray-400 text-xs mt-1">All rights reserved.</p>
+            <p className="text-gray-400 text-xs sm:text-sm ml-7">&copy; {currentYear} FinZuu All rights reserved.</p>
+            <p className="text-gray-400 text-xs mt-1"></p>
           </div>
           <div className="mt-3 md:mt-0 flex gap-3 sm:gap-4">
             <Link to="/privacy" className="text-gray-400 hover:text-white text-xs sm:text-sm transition-colors">
