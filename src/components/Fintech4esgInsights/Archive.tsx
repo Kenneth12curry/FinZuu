@@ -39,7 +39,7 @@ export default function Archive() {
 
   return (
     <div className="container mx-auto px-4 py-8">
-      <h1 className="text-3xl font-bold mb-6">NewsLetters</h1>
+      <h1 className="text-3xl font-bold mb-6">NewsLetter</h1>
 
       {/* Boutons de filtre de langue */}
       <div className="flex mb-5">

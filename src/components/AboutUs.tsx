@@ -15,7 +15,7 @@ import isabelle from "@/assets/images/advisory/ID_Isabelle Barres.jpg"
 import gabriel from "@/assets/images/advisory/Gabriel_sallah.png"
 import uffe_carlson from "@/assets/images/advisory/ID_Uffe Carlson_2.jpeg"
 import daniel from "@/assets/images/advisory/Daniel_Awanda.png"
-import anthony from "@/assets/images/advisory/KUME1.jpeg"
+import anthony from "@/assets/images/advisory/KUME3.jpeg"
 
 
 import OurBackgroundCaroussel from "./OurBackgroundCaroussel";
@@ -214,7 +214,7 @@ function TeamSection({ title, members }: TeamSectionProps) {
             transition={{ duration: 0.3 }}
             className="bg-white rounded-b-xl shadow-md p-6 mt-1"
           >
-            <div className="flex flex-wrap justify-center gap-16">
+            <div className="flex flex-wrap justify-center gap-24">
               {members.map((member, index) => (
                 <TeamMember
                   key={index}
@@ -265,7 +265,7 @@ function TeamSection2({ title, members }: TeamSectionProps) {
             transition={{ duration: 0.3 }}
             className="bg-white rounded-b-xl shadow-md p-6 mt-1">
 
-            <div className="flex flex-wrap md:flex-nowrap justify-center gap-16">
+            <div className="flex flex-wrap md:flex-nowrap justify-center gap-24">
               {members.map((member, index) => (
                 <TeamMember
                   key={index}
