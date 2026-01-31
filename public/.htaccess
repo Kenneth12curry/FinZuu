@@ -1,0 +1,11 @@
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+  # Rediriger fintech4esg.com vers finzuu.com
+  RewriteCond %{HTTP_HOST} ^(www\.)?fintech4esg\.com$ [NC]
+  RewriteRule ^(.*)$ https://finzuu.com/$1 [R=301,L]
+  
+  # Gestion standard pour SPA (React Routeur)
+  RewriteCond %{REQUEST_FILENAME} !-f
+  RewriteCond %{REQUEST_FILENAME} !-d
+  RewriteRule ^ index.html [QSA,L]
+</IfModule>

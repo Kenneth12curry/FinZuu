@@ -214,7 +214,7 @@ function TeamSection({ title, members }: TeamSectionProps) {
             transition={{ duration: 0.3 }}
             className="bg-white rounded-b-xl shadow-md p-6 mt-1"
           >
-            <div className="flex flex-wrap justify-center gap-24">
+            <div className="flex flex-wrap md:flex-nowrap justify-center gap-24">
               {members.map((member, index) => (
                 <TeamMember
                   key={index}
@@ -334,7 +334,7 @@ export default function AboutUs() {
 
   const advisoryBoard = [
     { name: "Isabelle BARRES", role: t("about.role.ib"), linkedin: "https://www.linkedin.com/in/isabelle-barres/", image: isabelle },
-    { name: "Anthony KUME", role: t("about.role.ak"), linkedin: "https://www.linkedin.com/in/ak/", image: anthony },
+    // { name: "Anthony KUME", role: t("about.role.ak"), linkedin: "", image: anthony },
     { name: "Serge ESSO", role: t("about.role.se"), linkedin: "https://www.linkedin.com/in/serge-esso-69856ab/", image: serge },
     { name: "Hichem B.", role: t("about.role.hb"), linkedin: "https://www.linkedin.com/in/bouchouareb/", image: hicham },
     { name: "Gabriel SALLAH", role: t("about.role.gs"), linkedin: "https://www.linkedin.com/in/gabrielsallah/", image: gabriel },

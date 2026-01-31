@@ -140,8 +140,8 @@ export default function Footer() {
 
         {/* Bottom Info */}
         <div className="flex flex-col md:flex-row justify-between items-center">
-          <div className="flex flex-col">
-            <p className="text-gray-400 text-xs sm:text-sm ml-7">&copy; {currentYear} FinZuu All rights reserved.</p>
+          <div className="flex flex-col items-center md:items-start">
+            <p className="text-gray-400 text-xs sm:text-sm md:ml-7 text-center md:text-left">&copy; {currentYear} FinZuu All rights reserved.</p>
             <p className="text-gray-400 text-xs mt-1"></p>
           </div>
           <div className="mt-3 md:mt-0 flex gap-3 sm:gap-4">
