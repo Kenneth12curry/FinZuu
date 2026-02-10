@@ -577,10 +577,10 @@ const translations = {
   "how.description":"With 75+ years’ global expertise, we drive Digital Transformation in Financial Services—boosting efficiency, scaling institutions, and promoting inclusive growth through innovative FinTech solutions.",
   
   "about.team": "Leadership Team",
-  "about.role.ceo": "COO",
+  "about.role.coo": "COO-Cofonder",
   "about.role.cfo":"CFO",
   //"about.role.coo": "C00",
-  "about.role.cso":"CSO",
+  "about.role.cofounder":"Cofounder",
   "about.role.cto": "CTO",
   "about.role.research": "U. G.",
   "about.role.business": "Head Of Business",
@@ -589,7 +589,7 @@ const translations = {
   "about.role.specialist": "Microfinance Specialist",
 
   
-  "about.board": "Advisory Board",
+  "about.board": "Advisory Committee",
   "about.role.advisor": "Strategic Advisor",
   "about.background": "Our Background",
   "about.background.description": "With extensive experience in financial technology across Asia, the United States, and Europe, our team brings over 50 years of combined expertise to the African market. We've successfully implemented digital financial solutions that have transformed businesses and empowered communities.",
@@ -841,7 +841,7 @@ const translations = {
   "about.goals":"Our Goals",
   "about.HowWeAre":"Who Are We ?",
 
-  "about.role.fp":"CEO",
+  "about.role.fp":"CEO-Cofonder",
   "about.role.ib":"Managing Director @ 888 Global Board Member",
   "about.role.se":"Founder & Managing Director @ Glencoe Advisory",
   "about.role.gs":"Multi Cloud & Cyber Security Expert @ Microsoft",

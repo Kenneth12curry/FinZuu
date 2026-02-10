@@ -323,9 +323,9 @@ export default function AboutUs() {
 
   const managementTeam = [
     { name: "Franck PELTIER", role: t("about.role.fp"), linkedin: "https://www.linkedin.com/in/franck-peltier-772ba528/", image: franck },
-    { name: "Daniel AWANDA", role: t("about.role.cso"), linkedin: "https://www.linkedin.com/in/danielawanda/", image: daniel },
+    { name: "Daniel AWANDA", role: t("about.role.cofounder"), linkedin: "https://www.linkedin.com/in/danielawanda/", image: daniel },
     { name: "Christian de BERAIL", role: t("about.role.cfo"), linkedin: "https://www.linkedin.com/in/cdeberail/", image: christian },
-    { name: "JJ BWANGA", role: t("about.role.ceo"), linkedin: "https://www.linkedin.com/in/jjbwanga/", image: jjbwanga },
+    { name: "JJ BWANGA", role: t("about.role.coo"), linkedin: "https://www.linkedin.com/in/jjbwanga/", image: jjbwanga },
     //{ name: "Kamel ZEMOURI", role: t("about.role.cto"), linkedin: "https://www.linkedin.com/in/kamel-zemouri-cv/", image: "" },
     //{ name: "Patrick MADENG", role: t("about.role.cto"), linkedin: "https://linkedin.com/in/patrick-madeng", image: "" },
     //{ name: "Uffe CARLSON", role: t("about.role.business"), linkedin: "https://linkedin.com/in/uffe-carlson", image: uffe_carlson }
