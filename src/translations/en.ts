@@ -577,7 +577,7 @@ const translations = {
   "how.description":"With 75+ years’ global expertise, we drive Digital Transformation in Financial Services—boosting efficiency, scaling institutions, and promoting inclusive growth through innovative FinTech solutions.",
   
   "about.team": "Leadership Team",
-  "about.role.coo": "COO-Cofonder",
+  "about.role.coo": "COO-Cofounder",
   "about.role.cfo":"CFO",
   //"about.role.coo": "C00",
   "about.role.cofounder":"Cofounder",
@@ -841,7 +841,7 @@ const translations = {
   "about.goals":"Our Goals",
   "about.HowWeAre":"Who Are We ?",
 
-  "about.role.fp":"CEO-Cofonder",
+  "about.role.fp":"CEO-Cofounder",
   "about.role.ib":"Managing Director @ 888 Global Board Member",
   "about.role.se":"Founder & Managing Director @ Glencoe Advisory",
   "about.role.gs":"Multi Cloud & Cyber Security Expert @ Microsoft",

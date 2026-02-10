@@ -310,7 +310,7 @@ const translations = {
   //"about.role.ceo": "C00",
   "about.role.cfo":"CFO",
 
-  "about.role.coo":"COO-Cofonder",
+  "about.role.coo":"COO-Cofounder",
   //"about.role.coo": "C00",
   "about.role.cto": "CTO",
   "about.role.cofounder":"Cofounder",
@@ -643,7 +643,7 @@ const translations = {
   "about.goals":"Nos Objectifs",
   "about.HowWeAre":"Qui Sommes-Nous ?",
 
-  "about.role.fp":"CEO-Cofonder",
+  "about.role.fp":"CEO-Cofounder",
   "about.role.ib":"Managing Director @ 888 Global Board Member",
   "about.role.se":"Founder & Managing Director @ Glencoe Advisory",
   "about.role.gs":"Multi Cloud & Cyber Security Expert",
