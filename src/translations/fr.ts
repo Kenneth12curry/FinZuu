@@ -603,7 +603,7 @@ const translations = {
 
   "title.learnMore": "Apprendre encore plus",
 
-  "title.ecosystem": "Notre Écosystème",
+  "title.ecosystem": "Aperçu de l’écosystème du marché",
 
   // Contact
   "title.contact": "Contactez-Nous",
