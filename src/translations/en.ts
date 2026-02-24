@@ -801,7 +801,7 @@ const translations = {
 
   "title.learnMore": "Learn More",
 
-  "title.ecosystem": "Our EcoSystem",
+  "title.ecosystem": "Aperçu de l’écosystème du marché",
 
 
   // Contact
