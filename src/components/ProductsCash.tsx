@@ -357,7 +357,7 @@ export default function ProductsCash(){
                                 whileTap={{ scale: 0.95 }}
                                 >
                                 <a 
-                                    href="https://cloud15105.nextcloud.massivegrid.net/index.php/apps/calendar/appointment/g26nqHiZxrE6"
+                                    href="https://ws.finzuu.com/index.php/apps/calendar/appointment/g26nqHiZxrE6"
                                     className="inline-block bg-gradient-to-r from-green-600 to-green-500 text-xs sm:text-sm md:text-base text-white font-medium py-2 px-6 rounded-xl hover:from-green-500 hover:to-green-400 transition duration-300 shadow-lg"
                                 >
                                 {t("platform.partnership.cta")}

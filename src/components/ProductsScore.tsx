@@ -190,7 +190,7 @@ export default function ProductsScore(){
                 <div className="mt-12">
                     <div className="flex justify-center ">
                       <a
-                        href="https://cloud15105.nextcloud.massivegrid.net/index.php/apps/calendar/appointment/g26nqHiZxrE6"
+                        href="https://ws.finzuu.com/index.php/apps/calendar/appointment/g26nqHiZxrE6"
                         className="inline-block text-sm sm:text-base text-white rounded-xl border bg-[#19af58] px-6 sm:px-8 py-2 sm:py-2.5 transition hover:bg-primary hover:text-white"
                         target="_blank"
                         rel="noopener noreferrer"

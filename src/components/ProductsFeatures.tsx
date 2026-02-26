@@ -99,7 +99,7 @@ export default function ProductFeatures() {
 
         <div className="mt-12 text-center">
           <Button asChild size="lg" className="mt-4 bg-gradient-to-r from-green-600 to-green-500 text-sm sm:text-sm md:text-base text-white font-medium py-2 px-6 rounded-xl hover:from-green-500 hover:to-green-400 transition duration-300 shadow-lg">
-            <a href="https://cloud15105.nextcloud.massivegrid.net/index.php/apps/calendar/appointment/g26nqHiZxrE6">
+            <a href="https://ws.finzuu.com/index.php/apps/calendar/appointment/g26nqHiZxrE6">
               {t("productfeatures.cta")}
               <svg className="ml-2 -mr-1 h-5 w-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
                 <path fillRule="evenodd" d="M10.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L12.586 11H5a1 1 0 110-2h7.586l-2.293-2.293a1 1 0 010-1.414z" clipRule="evenodd" />

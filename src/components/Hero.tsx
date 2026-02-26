@@ -128,7 +128,7 @@ export default function Hero() {
                           transition={{ type: "spring", stiffness: 400, damping: 15 }}
                         >
                            <a
-                            href="https://cloud15105.nextcloud.massivegrid.net/index.php/apps/calendar/appointment/g26nqHiZxrE6"
+                            href="https://ws.finzuu.com/index.php/apps/calendar/appointment/g26nqHiZxrE6"
                             className="inline-block text-xs sm:text-base text-white rounded-xl border bg-[#19af58] px-4 sm:px-8 py-1.5 sm:py-2.5 mt-2 sm:mt-4 transition hover:bg-primary hover:text-white"
                             target="_blank"
                             rel="noopener noreferrer"
