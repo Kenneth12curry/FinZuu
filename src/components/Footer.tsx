@@ -152,7 +152,7 @@ export default function Footer() {
               {t("footer.terms")}
             </Link>
             <Link to="/security" className="text-gray-400 hover:text-white text-xs sm:text-sm transition-colors">
-              {t("footer.security")}
+              
             </Link>
           </div>
         </div>
